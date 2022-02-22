@@ -6,4 +6,4 @@ column table "PERFORMANCE" (
     "SATISFACTION_INDEX" DOUBLE COMMENT 'Employee given rating',
     PRIMARY KEY ("ID")
 )
-COMMENT 'Performance evaluation record'
+COMMENT 'Performance Comment addition'
