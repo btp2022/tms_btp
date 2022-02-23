@@ -3,6 +3,7 @@ column table "PERFORMANCE" (
     "EVALUATION_RATING" DOUBLE COMMENT 'Evaluation results',
     "REPORTS_TO" INTEGER not null COMMENT 'Reports to Manager',
     "FEEDBACK_COMMENT" NVARCHAR(512) COMMENT 'Feedback comment',
+    
     PRIMARY KEY ("ID")
 )
 COMMENT 'Performance Comment addition'
