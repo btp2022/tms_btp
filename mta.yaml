@@ -9,6 +9,9 @@ modules:
   - name: app_btp_tms-hdi
 resources:
 - name: app_btp_tms-hdi
+  parameters:
+     config:
+        schema: app_btp_tms
   type: com.sap.xs.hdi-container
   properties:
     hdi-container-name: ${service-name}
