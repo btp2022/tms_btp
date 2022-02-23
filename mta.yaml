@@ -2,13 +2,13 @@ _schema-version: "3.2"
 ID: app_btp_tms
 version: 0.0.1
 modules:
-- name: db
+- name: app_btp_tms-db
   type: hdb
   path: db
   requires:
-  - name: hdi_db
+  - name: app_btp_tms-hdi
 resources:
-- name: hdi_db
+- name: app_btp_tms-hdi
   type: com.sap.xs.hdi-container
   properties:
     hdi-container-name: ${service-name}
